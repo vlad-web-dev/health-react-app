@@ -48,7 +48,7 @@ export default function App() {
                     </Sider>
 
                     <Switch>
-                        <Redirect from="/" to="/appointments" />
+                        <Redirect exact  from="/" to="/appointments" />
 
                         <Route path="/appointments">
                             <Appointments/>
